@@ -1,0 +1,94 @@
+:root{
+    --main_bg:hsl(217, 54%, 11%);
+    --card_bg:hsl(216, 50%, 16%);
+    --line:hsl(215, 32%, 27%);
+    --white:hsl(0, 0%, 100%);
+    /*font colors*/ 
+    --soft_blue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    align-items: center;
+    background-color: var(--main_bg);
+    color:var(--line);
+    font-family: 'Outfit', sans-serif; 
+    font-size:18px;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.container{
+    background-color: var(--card_bg);
+    max-width:350px;
+    border-radius: 10px;
+    box-shadow:0px 20px 5px 15px rgba(0, 0, 0, 0.111),0px 30px 10px 45px hsla(215, 51%, 16%, 0.348) ;
+    padding:25px 25px;
+}
+.product_foto img{
+    border-radius: 10px;
+}
+ h1{
+     font-size:23px;
+     color:var(--white);
+     font-weight: 400;
+     padding-top:17px;
+ }
+ h3{
+     font-weight: 200;
+     color:var(--soft_blue);
+     padding-top:17px;
+     font-size:17px;
+ }
+ svg{
+     margin-right:7px;
+ }
+ .nft_action{
+    padding-top:17px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    font-size:17px;
+ }
+ .nft_action p{
+    display:flex;
+    align-items: center;
+ }
+ .price{
+     color:var(--cyan);
+ }
+ .hot_deal{
+     color:var(--soft_blue);
+     font-weight: 200;
+ }
+ .developer{
+    display:flex;
+    align-items: center;
+    border-top:1px solid var(--line);
+    padding:15px 0;
+    color:var(--soft_blue);
+    font-weight:100;
+    margin-top:17px;
+    font-size:17px;
+ }
+ .developer span{
+     color:var(--white);
+     margin-left:5px;
+ }
+ .dev_avatar{
+    width:36px;
+    margin-right:15px;
+    display:flex;
+ }
+ .dev_avatar img{
+    border:1px solid var(--white);
+    border-radius:50%;
+ }
